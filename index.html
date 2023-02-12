@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <h2>Game created by McKenna Roessler</h2>
+    <div class="gameMessage">
+        <p>Player turn</p>
+    </div>
+    <div class="board">
+        <button class="square top-left" data-cell-index="0" onclick="gameMove()">""</button>
+        <button class="square top-middle" data-cell-index="1" onclick="gameMove()"></button>
+        <button class="square top-right" data-cell-index="2" onclick="gameMove()"></button>
+        <button class="square middle-left" data-cell-index="3" onclick="gameMove()"></button>
+        <button class="square middle" data-cell-index="4" onclick="gameMove()"></button>
+        <button class="square middle-right" data-cell-index="5" onclick="gameMove()"></button>
+        <button class="square bottom-left" data-cell-index="6" onclick="gameMove()"></button>
+        <button class="square bottom-middle" data-cell-index="7" onclick="gameMove()"></button>
+        <button class="square bottom-right" data-cell-index="8" onclick="gameMove()"></button>
+    </div>
+    <div class="button">
+    <button id="restartButton">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

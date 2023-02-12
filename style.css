@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.gameMessage {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+
+.board {
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 35px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    display: flex;
+    font-size: 3rem;
+    color: blue;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.top-left{
+    margin-bottom: 240px;
+    margin-right: 290px;
+}
+.top-middle{
+    margin-bottom: 240px;
+}
+.top-right{
+    margin-bottom: 240px;
+    margin-right: -290px;
+}
+.middle-left{
+    margin-right: 290px;
+}
+.middle-right{
+    margin-right: -290px;
+}
+.middle {
+    position: absolute;
+    display: flex;
+}
+.bottom-left{
+    margin-bottom: -240px;
+    margin-left: -290px;
+}
+.bottom-middle{
+    margin-bottom: -240px;
+}
+.bottom-right{
+    margin-bottom: -240px;
+    margin-left: 290px;
+}
+
+.button {
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    display: flex;
+}
+
+#restartButton {
+    padding: 2px;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 130px;
+}
